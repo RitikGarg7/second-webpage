@@ -1,0 +1,194 @@
+.page-container {
+	position: relative;
+	min-height: 100vh;
+  }
+  
+  .content-wrap {
+	padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  .footer {
+	position: absolute;
+	bottom: 0;
+	width: 150%;
+	text-align: center;
+	height: 3rem;            /* Footer height */
+	color: darkorange;
+  }
+
+
+ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-color:black;
+}
+
+li{
+	float:left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	text-shadow: 20px 15px blur yellowgreen;
+}
+
+li a{
+	display: block;
+	color:white;
+	text-align:center;
+	padding: 50px 50px;;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:white;
+	color:black;	
+	width: 65px;
+	height: 65px;
+	transition: 0.2s ease;
+}
+
+ul li .active a{
+color: #000046;
+}
+
+.logo img{
+	float: left;
+	width: 180px;
+	height: 128px;
+}
+
+.logo :hover{
+	background-color: floralwhite;
+	color: darkmagenta;
+	width: 250px;
+	height: 250px;
+	transition: 0.6s ease;
+	
+}
+
+
+.mainone{
+	
+	background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+	
+
+.mainpara{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 60px;
+	color: white;
+}
+
+
+.bottompara{
+	position: absolute;
+    top: 70%;
+    left: 60%;
+	transform: translate(-70%,-60%);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 35px;
+	color: rgb(125, 214, 255);
+}
+
+
+
+.aboutpage{
+	
+	background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+	
+ } 
+
+	
+
+.facthead {
+	
+		font-size: 72px;
+		background: -webkit-linear-gradient(#eee, #333);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	  }
+
+
+	  .aboutinfo{
+		text-decoration: none;
+		color: white;
+		position: absolute;
+		font-size: 50px;
+		top: 70%;
+		left: 45%;
+		transform: translate(-70%, -45%);
+
+	  }
+
+	
+		.backbutton{    
+		color:  white;
+		font-size: 70px;
+		text-decoration: none;
+		transition: 0.5s ease;
+	  }
+
+	  .backbutton:hover{
+		background-color: yellow;
+		color: #4a195a;
+		text-decoration: none;
+		object-position: 10cm;
+		
+	  }
+	
+	 
+	  .contactme{
+		background-color: #000000;
+		background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+		
+			}
+
+
+	  
+	  .contactform ul{
+			list-style-type:none;
+			margin:20cm;
+			padding:10cm;
+			overflow:hidden;
+			background-color: white;
+	  }
+
+	  .contactform li{
+		float:left;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-size: 20px;
+		
+	}
+	
+	.contactform li a{
+		display: block;
+		color:white;
+		text-align:center;
+		padding: 50px 50px;;
+		text-decoration:none;
+	}
+
+	.contactform li a:hover{
+		background-color:white;
+		color:black;	
+		width: 65px;
+		height: 65px;
+		transition: 0.2s ease;
+	}
+
+	.callme{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 40px;
+	color: black;
+	}
+
+	.contactback{
+		color: #000000;
+	}
